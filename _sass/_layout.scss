@@ -320,3 +320,12 @@ q:after {
   font-weight:bold;
 }
 
+
+/**
+ * Disqus comment count
+ */
+ a.disqus-comment-count {
+  background-color: rgba(123, 186, 172, 0.42);
+  padding: 2px 4px;
+  border-radius: 3px;
+}

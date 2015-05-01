@@ -26,6 +26,7 @@ layout: default
       <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
       {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%b %-d, %Y" }}
       </time>
+      <a href="{{ post.url | prepend: site.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" class="disqus-comment-count">0 comments</a>
       </p>
     </header>
 
