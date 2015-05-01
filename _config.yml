@@ -6,7 +6,7 @@ email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://danghaian.com/blog" # the base hostname & protocol for your site
+url: "http://zyzo.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
@@ -22,7 +22,7 @@ aboutme_photo: https://pbs.twimg.com/profile_images/378800000425114514/03164780c
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
 ShowCopyrightNotice: "False"
 ShowBlogRoll: "False"
-DisplayWordLimits: 75
+DisplayWordLimits: 70
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
