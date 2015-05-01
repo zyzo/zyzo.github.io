@@ -1,5 +1,5 @@
 ### Site info:
-title: dang hai an's dev blog
+title: dha's dev blog
 tagline: Journey to craftmanship
 author: Lijia Yu
 email: yu@lijiayu.net
@@ -12,7 +12,7 @@ locale: en_US
 ### Personal info and site tools info:
 twitter_username: DangHaiAn1
 github_username:  zyzo
-# disqus_shortname: 
+disqus_shortname: danghaian
 favicon:     "/images/favicon.ico"
 aboutme: An unknown software student who's trying his best to be useful to the world # these are shown on aboutme-sidebar.
 aboutme_photo: https://pbs.twimg.com/profile_images/378800000425114514/03164780ca4792aa73dba8688f64335a_400x400.jpeg # your photo.
@@ -22,6 +22,7 @@ aboutme_photo: https://pbs.twimg.com/profile_images/378800000425114514/03164780c
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
 ShowCopyrightNotice: "False"
 ShowBlogRoll: "False"
+DisplayWordLimits: 75
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 

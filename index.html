@@ -30,7 +30,12 @@ layout: default
     </header>
 
     <article class="post-content" itemprop="articleBody">
-      {{ post.content }}
+      {{ post.content || truncatewords : site.DisplayWordLimits}}
+
+      {% capture post_size_diff %}{{post.content | size | minus : site.DisplayWordLimits}}{% endcapture %}
+      {% unless post_size_diff contains '-' %}
+        <br/><br/><a href="{{ post.url }}" style="border-bottom : none">Read more</a><br><br>
+      {% endunless %}  
     </article> <hr />
     
     {% endfor %}

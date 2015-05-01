@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2015-04-30 23:24:00
 categories: helloworld
+comments: true
 ---
 
 Well, technically, hello world again! I used [tumblr][tumblr] as my blog platform before, but the design and functionality just don't seem really appealing to me. So I'm switching to [Jekyll][jekyll].
