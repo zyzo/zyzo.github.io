@@ -16,7 +16,7 @@
     &:visited
     &:hover {
       color: $brand-top-color; //$grey-color-dark
-      border-bottom: 1px dotted;
+      border-bottom: 1px solid;
       text-decoration: none;
     }
   }
@@ -154,6 +154,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  margin: 0;
 }
 
 .post-link {

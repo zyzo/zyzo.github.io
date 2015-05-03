@@ -1,10 +1,10 @@
 ### Site info:
 title: dha's dev blog
-tagline: Journey to craftmanship
-author: Lijia Yu
-email: yu@lijiayu.net
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+tagline: Web development among other stuffs
+author: Dang Hai An
+email: danghaian168@gmail.com
+description: "Dang Hai An's technical blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "danghaian, zyzo, Jekyll, devblog, programming"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zyzo.github.io" # the base hostname & protocol for your site
 locale: en_US
@@ -14,7 +14,7 @@ twitter_username: DangHaiAn1
 github_username:  zyzo
 disqus_shortname: danghaian
 favicon:     "/images/favicon.ico"
-aboutme: An unknown software student who's trying his best to be useful to the world # these are shown on aboutme-sidebar.
+aboutme: An unknown software student working hard to be useful to the world # these are shown on aboutme-sidebar.
 aboutme_photo: https://pbs.twimg.com/profile_images/378800000425114514/03164780ca4792aa73dba8688f64335a_400x400.jpeg # your photo.
 
 
@@ -38,7 +38,7 @@ locales:
       Previous: "Older"
       Next: "Newer"
       PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"  
+      Taggedwith: "tags : "  
       PostDate: "on "
 
 ### your Blogroll info, only name can shown on the page.
