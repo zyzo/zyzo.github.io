@@ -9,7 +9,7 @@ tags:
 - pthreads
 ---
 
-I'm developing a utility library called [meteor-ddp-php](https://github.com/zyzo/meteor-ddp-php), which makes heavy use of PHP [pthreads](https://github.com/krakjoe/pthreads). Once in a while, I encounters weird, unexplicable bugs that contradicts all my knowledge about computer & programming languages. They just really get me on my nerves. I want to share with you that experience in this post.
+I'm developing a utility library called [meteor-ddp-php](https://github.com/zyzo/meteor-ddp-php), which makes heavy use of PHP [pthreads](https://github.com/krakjoe/pthreads). Once in a while, I encounters weird, unexplainable bugs that contradicts all my knowledge about computer & programming languages. They just really get me on my nerves. I want to share with you that experience in this post.
 
 Suppose I have a class `B` extending `Thread` and a class `A` which initiates and starts `B`:
 
