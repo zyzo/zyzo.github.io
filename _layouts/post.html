@@ -29,7 +29,17 @@ layout: default
   <hr />
 </div>
 
-
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    // work-around to get single column blog post
+    var pageContent = document.getElementById('page-content');
+    pageContent.className = pageContent.className.replace('col-sm-8', '');
+    pageContent.style.margin = "0 15px";
+    var sidebar = document.getElementById('sidebar-meta');
+    sidebar.className = sidebar.className.replace('col-sm-2', '');
+    sidebar.style.textAlign = "center";
+  });
+</script>
 {% include page_pagination.html%}
 {% include comments.html %}
 

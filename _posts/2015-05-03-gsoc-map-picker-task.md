@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Embed Leaflet map as a coordinates picker"
+title:  "Embed Leaflet map as coordinates picker"
 date:   2015-05-03 19:32:00
 categories: 
 - gsoc
