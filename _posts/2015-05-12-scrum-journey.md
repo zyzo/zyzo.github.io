@@ -2,7 +2,7 @@
 layout: post
 title:  "Scrum journey"
 date:   2015-05-12 22:01:00
-categories: gsoc
+categories: gsoc fossasia
 comments: true
 tags: 
 - scrum
@@ -51,10 +51,11 @@ So far so good. The way I see it, the daily standup idea has good faith in itsel
 
 In my next update that I don't know when, I'll probably talk about scrum in my one-man-land situation, that is, a single developer in the development team.
 
-Resources :
+References :
 
 + [http://www.tutorialspoint.com/scrum/](http://www.tutorialspoint.com/scrum/)
 + [http://brainslink.com/2011/08/7-scrum-variations-that-might-work-for-you/](http://brainslink.com/2011/08/7-scrum-variations-that-might-work-for-you/)
++ [http://blog.fossasia.org](http://blog.fossasia.org)
 
 <br/>
 *Last updated : 12/05/2015*

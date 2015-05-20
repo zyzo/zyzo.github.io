@@ -4,18 +4,18 @@ title:  "Embed Leaflet map as coordinates picker"
 date:   2015-05-03 19:32:00
 categories: 
 - gsoc
-- javascript
+- fossasia
 comments: true
 tags:
 - openstreetmap
 - leafletjs
 - javascript
-- gsoc2015
+- fossasia-api
 ---
 
 ![Image broken](/images/map-picker.png "The generator form with map picker embedded")
 
-As a warm up task for my GSoC project, I want to embed a map to the API [generator form](http://api.fossasia.net/generator/index.html) as a convenient way for users to provide their location coordinates. When the user clicks on a location on the map, two input fields **Latitude** and **Longitude** will be automatically updated with fresh values. Here's how.
+As a warm up task for my GSoC project, I want to embed a map to the FOSSASIA API [generator form](http://api.fossasia.net/generator/index.html) as a convenient way for users to provide their location coordinates. When the user clicks on a location on the map, two input fields **Latitude** and **Longitude** will be automatically updated with fresh values. Here's how.
 
 For this task you need [jquery](https://jquery.com/) and [leaflet](http://leafletjs.com/) - an openstreetmap library. You also want to prepare an empty `div` for the embed map :
 
@@ -81,3 +81,8 @@ $('#lngInput').on('input', updateMarkerByInputs);
 {% endhighlight %}
 
 That's about it ! Check out this tutorial on [Gist](https://gist.github.com/zyzo/143e2d8ec67f7c316ae2) and [JSFiddle](http://jsfiddle.net/zyzo/d8wafp5q/).
+
+References :
+
++ FOSSASIA API generator page [http://api.fossasia.net/generator/index.html](http://api.fossasia.net/generator/index.html)
++ [http://blog.fossasia.org](http://blog.fossasia.org)
