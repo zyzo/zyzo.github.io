@@ -25,6 +25,12 @@ The tool is fairly simple : you copy the ics text into the text area (or choose 
 
 Source code & demo version coming soon ! Built with ics parser library [https://github.com/johngrogg/ics-parser](https://github.com/johngrogg/ics-parser), CalHeatmap [https://kamisama.github.io/cal-heatmap/](https://kamisama.github.io/cal-heatmap/) and jquery plugin [FullCalendar.io](http://fullcalendar.io/).
 
+**<em>Update</em>** : 
+
+Source : [https://github.com/zyzo/ics-tools](https://github.com/zyzo/ics-tools)
+
+Demo : [http://fossasia-api.herokuapp.com/](http://fossasia-api.herokuapp.com/)
+
 References : 
 
 + [Freifunk community map](http://freifunk.net/wie-mache-ich-mit/community-finden/)
