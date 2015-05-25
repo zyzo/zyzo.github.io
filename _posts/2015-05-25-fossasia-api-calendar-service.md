@@ -13,13 +13,13 @@ ICalendar is a file format residing under [RFC 5445](https://tools.ietf.org/html
 
 To have an idea of the problem I'm dealing with, I gathered a bunch of ics files, mostly [provided by freifunk communities](https://github.com/freifunk/directory.api.freifunk.net/blob/master/directory.json), using these little [node scripts](https://github.com/zyzo/api-collector), and try to spot a not-so-standard implementation. To have a less mechanical approach, I developed a visual tool to debug my ics. Here are some screenshots of the app:
 
-<img src="/images/ics-debugging-tool-2.png" alt="Ics debugging tool screenshot 1" title="Parser input, general info panel and the heatmap" style="
+<img src="/images/ics-debugging-tool-2.png" alt="Ics debugging tool screenshot 1" title="Parser input and general info panel" style="
     width: 65%;
 ">  *<span style="float : right;">Screenshot 1</span>*
 
 <span style="float:right">*Screenshot 2*</span>
 
-![Ics debugging tool screenshot 1](/images/ics-debugging-tool-1.png "Detailed calendar")
+![Ics debugging tool screenshot 1](/images/ics-debugging-tool-1.png "Heatmap and detailed calendar")
 
 The tool is fairly simple : you copy the ics text into the text area (or choose between example files), press `Feed me !`, the system will get running and provide some outputs. There is a general info panel, a yearly heatmap, and a calendar. It is a great help for me since I can just switch between ics files, see all the events counts in the heatmap, and event detailed information in the calendar.
 
