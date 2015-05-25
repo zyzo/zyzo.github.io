@@ -37,3 +37,7 @@ I think the toolbox has a great potential to create a strong network between dif
 
 
 In my [gsoc](/categories/#gsoc) blog series, I'll cherry-pick sutffs that I find valuable from my GSoC project to show to the world. So if you're interested on what I'll do, stick around for upcoming updates !
+
+References :
+
++ [http://blog.fossasia.org](http://blog.fossasia.org)
