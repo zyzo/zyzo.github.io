@@ -27,7 +27,7 @@ As I said, the Calendar API is inspired a lot from Facebook API. Those are the i
 * multiple values parameter. With `source` and `fields`, multiple values can be provided, separated using comma.
 * `fields` parameter. The motivation for event field filter is because the event has lots of different fields, and different users are interested in different information.
 
-There is also the "linked edge" characteristic of Graph API that I find very interesting : connection between related data make them more useful. It is done that way mainly constrained by the way Facebook data is structured, but there is nothing preventing unconnected data to be present in a connected way. So I'll hope to implement something similar for FOSSASIA Calendar API in the futur.
+There is also the "linked edge" characteristic of Graph API that I find very interesting : connection between related data make them more useful. It is done that way mainly because the API reflects Facebook own data model, but there is nothing thats prevents unconnected data to be presented in a connected way. So I'll hope to implement something similar for FOSSASIA Calendar API in the futur.
 
 (Right now the API serves events from Freifunk community, not FOSSASIA, mostly because there are not enough event feeds from FOSSASIA community to collect. So if you want to help us, you can add ics feed of your open-source community to FOSSASIA API. [Here's how](https://github.com/fossasia/common.api.fossasia.net/blob/dev/ics-collector/API.md#how-it-works-)).
 
