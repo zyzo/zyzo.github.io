@@ -15,7 +15,7 @@ github_username:  zyzo
 disqus_shortname: danghaian
 favicon:     "/images/favicon.ico"
 aboutme: An unknown software student working hard to be useful to the world # these are shown on aboutme-sidebar.
-aboutme_photo: https://pbs.twimg.com/profile_images/378800000425114514/03164780ca4792aa73dba8688f64335a_400x400.jpeg # your photo.
+aboutme_photo: "/images/avatar.jpg" # your photo.
 
 
 ### Site setting:
@@ -38,7 +38,7 @@ locales:
       Previous: "Older"
       Next: "Newer"
       PostedInCategories: "Posted in"
-      Taggedwith: "tags : "  
+      Taggedwith: "tags : "
       PostDate: "on "
 
 ### your Blogroll info, only name can shown on the page.
@@ -50,5 +50,6 @@ Blogroll:
 
 ### Build settings
 markdown: kramdown
+gems: [jekyll-paginate]
 highlighter: pygments
 paginate: 10
