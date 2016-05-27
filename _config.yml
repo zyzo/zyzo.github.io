@@ -52,3 +52,4 @@ Blogroll:
 markdown: kramdown
 highlighter: rouge
 paginate: 10
+gems: [jekyll-paginate]
