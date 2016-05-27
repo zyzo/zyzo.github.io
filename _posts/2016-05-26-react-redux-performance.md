@@ -14,7 +14,7 @@ React is advertised as [quite fast out of the box](https://facebook.github.io/re
 
 However I found that this strategy is less clear in a React/Redux environment. Here are some advices that you should considering when dealing with your app performance:
 
-## Use Immutable data
+### Use Immutable data
 
 This one should be a no-brainer with any React app. `shouldComponentUpdate` can only be useful when all the props can be shallow-compared. So as a rule of thumb, your
 components props can only be of 3 types:
@@ -25,7 +25,7 @@ components props can only be of 3 types:
 
 I didn't mention how you should handle React state. That is because Redux uses a separate store as application state. But sometimes, you need to use both [React's state and Redux's store](https://github.com/reactjs/redux/issues/1287). In that case, both props and state are shallow-compared so state elements should follow mentioned rules as well.
 
-## Do not use ownProps
+### Do not use ownProps
 
 When you create stateful components (containers) using `connect` function from [react-redux](https://github.com/reactjs/react-redux) library, `shouldComponentUpdate` is declared implicitly, so you normally don't have to implement it yourself.
 
@@ -33,11 +33,11 @@ However the [implementation](https://github.com/reactjs/react-redux/blob/master/
 
 This means that if you want your component to be optimized, you can't use information from passed props to get other information from the store. Why the implementation has to be this way is still unclear to me.
 
-## Avoid using `connect` on frequently-called elements
+### Avoid using `connect` on frequently-called elements
 
 `connect` function wraps the component inside another component with lots of decorated elements. These heavy overheads should be avoided on components that are called a lot in your application, for e.g. an element of a list.
 
-## Use Performance Tools
+### Use Performance Tools
 
 Finally, here are some excellent tools from the React team. Use them to identify the bottleneck in your React application:
 
