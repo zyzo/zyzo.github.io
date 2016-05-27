@@ -33,7 +33,7 @@ However the [implementation](https://github.com/reactjs/react-redux/blob/master/
 
 This means that if you want your component to be optimized, you can't use information from passed props to get other information from the store. Why the implementation has to be this way is still unclear to me.
 
-### Avoid using `connect` on frequently-called elements
+### Avoid `connect` on frequently-called elements
 
 `connect` function wraps the component inside another component with lots of decorated elements. These heavy overheads should be avoided on components that are called a lot in your application, for e.g. an element of a list.
 
