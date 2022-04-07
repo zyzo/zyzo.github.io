@@ -4,3 +4,5 @@ _examples
 .sass-cache
 *.sublime-project
 *.sublime-workspace
+.jekyll-cache
+.DS_Store

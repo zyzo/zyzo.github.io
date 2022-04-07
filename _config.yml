@@ -11,12 +11,10 @@ locale: en_US
 
 ### Personal info and site tools info:
 twitter_username: DangHaiAn1
-github_username:  zyzo
+github_username: zyzo
 disqus_shortname: danghaian
-favicon:     "/images/favicon.ico"
-aboutme: An unknown software student working hard to be useful to the world # these are shown on aboutme-sidebar.
-aboutme_photo: "/images/avatar.jpg" # your photo.
-
+favicon: "/images/favicon.ico"
+aboutme_photo: "/images/avatar.jpeg" # your photo.
 
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
@@ -27,26 +25,26 @@ default_column: "two" # blog style: two columns, if default_column != "two", you
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
 locales:
-    en:
-      Aboutme: "About Me"
-      Archives: "Archives"
-      Blogroll: "Links"
-      Categories: "Categories"
-      Copyright_Notice: "Copyright Notice"
-      Recent_Posts: "Recent Posts"
-      Tags: "Tags"
-      Previous: "Older"
-      Next: "Newer"
-      PostedInCategories: "Posted in"
-      Taggedwith: "tags : "
-      PostDate: "on "
+  en:
+    Aboutme: "About Me"
+    Archives: "Archives"
+    Blogroll: "Links"
+    Categories: "Categories"
+    Copyright_Notice: "Copyright Notice"
+    Recent_Posts: "Recent Posts"
+    Tags: "Tags"
+    Previous: "Older"
+    Next: "Newer"
+    PostedInCategories: "Posted in"
+    Taggedwith: "tags : "
+    PostDate: "on "
 
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-   - name: blog.fossasia.org
-     href: http://blog.fossasia.org
-     title: Open source technology community in ASIA
+  - name: blog.fossasia.org
+    href: http://blog.fossasia.org
+    title: Open source technology community in ASIA
 
 ### Build settings
 markdown: kramdown

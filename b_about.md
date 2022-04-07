@@ -5,5 +5,10 @@ comments: false
 permalink: /about/
 ---
 
+I try to make my code useful to me & to the world.
 
-My name is Dang Hai An, a developer student at INSA de Toulouse, France. 
+# Resume
+
+<a href="/pdfs/CV_AN_DANG_2022.en-light.pdf">Light Mode</a>
+<br/>
+<a href="/pdfs/CV_AN_DANG_2022.en.pdf">Dark Mode</a>
